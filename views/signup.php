@@ -1,5 +1,3 @@
-<?php session_start(); ?>
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -9,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>sign up</title>
 
-  <link rel="stylesheet" href="public/css/index.css" />
+  <link rel="stylesheet" href="../public/css/index.css" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +16,7 @@
 
 <body>
   <main>
-    <form action="./services/signup.php" method="POST">
+    <form action="../services/signup.php" method="POST">
       <h1>Sign up</h1>
       <div class="inputs">
         <div class="input-wrapper">

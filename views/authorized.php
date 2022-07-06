@@ -11,9 +11,8 @@
 </head>
 
 <body>
-  <h1>eh papai agora você tá on! bem-vindo <?php echo $_SESSION['username'] ?> - <?php echo $_SESSION['userId'] ?> </h1>
-
-  <p>quer sair da conta? <a href="./services/logout.php">clica aqui vacilao</a></p>
+  <h1>eh papai agora você tá on! bem-vindo <?php echo $_SESSION['username'] ?></h1>
+  <p>quer sair da conta? <a href="../services/logout.php">clica aqui vacilao</a></p>
 </body>
 
 </html>

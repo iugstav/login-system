@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
 
-  <link rel="stylesheet" href="public/css/index.css" />
+  <link rel="stylesheet" href="../public/css/index.css" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,7 @@
 
 <body>
   <main>
-    <form action="./services/login.php" method="POST">
+    <form action="../services/login.php" method="POST">
       <h1>Log in</h1>
       <div class="inputs">
         <div class="input-wrapper">

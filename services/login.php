@@ -25,10 +25,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $_SESSION['username'] = $userExists[0]['name'];
     $_SESSION['userId'] = $userExists[0]['id'];
 
-    header("Location: /authorized.php");
+    header("Location: /views/authorized.php");
     return true;
   } else {
-    header("Location: /login.php");
+    header("Location: /views/login.php");
     return false;
   }
 }
